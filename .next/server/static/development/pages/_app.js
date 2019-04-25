@@ -935,7 +935,7 @@ function (_App) {
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MyApp)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {
-      shopOrigin: js_cookie__WEBPACK_IMPORTED_MODULE_12___default.a.get("#{section_key}shopOrigin")
+      shopOrigin: js_cookie__WEBPACK_IMPORTED_MODULE_12___default.a.get('shopOrigin')
     });
 
     return _this;
@@ -952,7 +952,7 @@ function (_App) {
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_10__["AppProvider"], {
         shopOrigin: this.state.shopOrigin,
         apiKey: "2c377342fd711d305402f25c313b7ac9",
-        orceRedirect: true
+        forceRedirect: true
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Component, pageProps)));
     }
   }]);

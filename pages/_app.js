@@ -6,7 +6,7 @@ import Cookies from 'js-cookie'
 
 class MyApp extends App {
   state = {
-    shopOrigin: Cookies.get("#{section_key}shopOrigin")
+    shopOrigin: Cookies.get('shopOrigin')
   }
   render() {
     const { Component, pageProps } = this.props;
@@ -19,7 +19,7 @@ class MyApp extends App {
         <AppProvider
           shopOrigin={this.state.shopOrigin}
           apiKey={API_KEY}
-           orceRedirect
+          forceRedirect
         >
           <Component {...pageProps} />
         </AppProvider>
